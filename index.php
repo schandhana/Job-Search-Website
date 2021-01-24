@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JOB SEARCH WEBSITE</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+    <body>
+        <!-----------------------------------header------------------------------------>
+        <section id="header">
+            <div class="menu-bar">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <a class="navbar-brand" href="#"><img src="logo.png.jpg" width=21%>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                          <a class="nav-link" href="#">ALL JOBS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">COMPANIES</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">WALK-IN</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link " href="#" tabindex="-1" >GOVJOBS </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" tabindex="-1" > INTERNSHIP </a>
+                          </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+            <div class="banner text-center">
+                <h1>JOB AROUND YOU</h1>
+                
+            </div>
+
+        </section>
+        <div class="search-job text-center">
+          <input type="text" class="form-control" placeholder="search keywords">
+          <input type="text" class="form-control" placeholder="company">
+          <input type="text" class="form-control" placeholder="location">
+          <input type="button" class="btn btn-primary" value="Find job">
+        </div>
+        <!---------------------------------top recruiters---------------------->
+        <section id="recruiters">
+          <div class="container text-center">
+            <h3>TOP RECRUITERS</h3>
+            <div>
+              <a href="#"><img src="dell.png" ></a>
+              <a href="#"><img src="oracle.png" ></a>
+              <a href="#"><img src="cisco.png" ></a>
+              <a href="#"><img src="netflix.png" ></a>
+              <img src="amazon.png" >
+              <img src="accenture.png">
+              
+
+
+            </div>
+            <div>
+              <img src="cognizant.png" >
+              <img src="carbonbae.jpg" >
+              <img src="tcs.png" >
+              <img src="wipro.jpg" >
+              <img src="tnw.png" >
+              <img src="danone.png">
+              
+
+
+            </div>
+            <div>
+              <img src="adobe.png" >
+              <img src="idc.png" >
+              <img src="googlepaylogo.png" >
+              <img src="ibm.jpg" >
+              <img src="flipkart.jpg" >
+              <img src="forbes.png">
+              
+
+
+            </div>
+
+          </div>
+        </section>
+
+        <!----------------------Recent JOBs--------------------------------------------------->
+        <section id="jobs">
+          <div class="container">
+            <h3>RECENT UPDATES</h3>
+            <div class="company-details">
+              <div class="job-update">
+              <h3><b>Seasoned Senior Python Developer(Fresher)</b></h3>
+              <p>ABC Solutions Pvt Ltd</p>
+              <i class="fa fa-briefcase" ></i><span>1-3 yrs </span><br>
+              <i class="fa fa-inr" ></i><span>3.3 - 3.9 Lacs .p.a. </span><br>
+              <i class="fa fa-map-marker" ></i><span>bangalore</span><br>
+              <p>Skills   <i class="fa fa-angle-double-right" ></i><small> java</small>
+              <small>python</small><small>c</small><small>Kivy,Firebase,Kivymd</small><a href="#">READ MORE</a></p>
+              
+            </div>
+            <div class="apply-btn">
+              <button type="button " class="btn btn-primary">Apply</button>
+            </div>
+          </div>
+          <div class="company-details">
+            <div class="job-update">
+            <h3><b>Front End Developer</b></h3>
+            <p>Tally Solutions Pvt Ltd</p>
+            <i class="fa fa-briefcase" ></i><span>2-4 yrs </span><br>
+            <i class="fa fa-inr" ></i><span>10.3- 10.6 Lacs .p.a. </span><br>
+            <i class="fa fa-map-marker" ></i><span>Chennai</span><br>
+            <p>Skills   <i class="fa fa-angle-double-right" ></i><small>Ajax</small>
+            <small>Html</small><small>Css</small><small>Node js,React js,Jquery</small><a href="#">READ MORE</a></p>
+            
+          </div>
+          <div class="apply-btn">
+            <button type="button " class="btn btn-primary">Apply</button>
+          </div>
+        </div>
+
+
+
+
+
+
+        <div class="company-details">
+          <div class="job-update">
+          <h3><b>Back End Developer</b></h3>
+          <p>HRS  Pvt Ltd</p>
+          <i class="fa fa-briefcase" ></i><span>1-3 yrs </span><br>
+          <i class="fa fa-inr" ></i><span>3.0 -3.9 Lacs .p.a. </span><br>
+          <i class="fa fa-map-marker" ></i><span>bangalore</span><br>
+          <p>Skills   <i class="fa fa-angle-double-right" ></i><small> Mongodb</small>
+          <small>Php</small><small>Mysql</small><small>HTML,CSS,Js</small><a href="#">READ MORE</a></p>
+          
+        </div>
+        <div class="apply-btn">
+          <button type="button " class="btn btn-primary">Apply</button>
+        </div>
+      </div>
+
+
+
+<div class="company-details">
+          <div class="job-update">
+          <h3><b>Game Developer</b></h3>
+          <p>Danone  Pvt Ltd</p>
+          <i class="fa fa-briefcase" ></i><span>1-3 yrs </span><br>
+          <i class="fa fa-inr" ></i><span>3.3 - 3.9 Lacs .p.a. </span><br>
+          <i class="fa fa-map-marker" ></i><span>bangalore</span><br>
+          <p>Skills   <i class="fa fa-angle-double-right" ></i><small> java</small>
+          <small>python</small><small>c</small><small>C++,Js,JQuery</small><a href="#">READ MORE</a></p>
+          
+        </div>
+        <div class="apply-btn">
+          <button type="button " class="btn btn-primary">Apply</button>
+        </div>
+      </div>
+
+
+      <div class="company-details">
+        <div class="job-update">
+        <h3><b>Graphics Designer</b></h3>
+        <p>CTC  Pvt Ltd</p>
+        <i class="fa fa-briefcase" ></i><span>2-4 yrs </span><br>
+        <i class="fa fa-inr" ></i><span>11.0 - 11.5 Lacs .p.a. </span><br>
+        <i class="fa fa-map-marker" ></i><span>Delhi</span><br>
+        <p>Skills   <i class="fa fa-angle-double-right" ></i><small>Ux design</small>
+        <small>Common design Patterns</small><small>c</small><small>Typography</small><a href="#">READ MORE</a></p>
+        
+      </div>
+      <div class="apply-btn">
+        <button type="button " class="btn btn-primary">Apply</button>
+      </div>
+    </div>
+
+
+    <div class="company-details">
+      <div class="job-update">
+      <h3><b>Mobile App Developer </b></h3>
+      <p>Carbon Bae Solutions Pvt Ltd</p>
+      <i class="fa fa-briefcase" ></i><span>1-3 yrs </span><br>
+      <i class="fa fa-inr" ></i><span>8.0 - 8.6 Lacs .p.a. </span><br>
+      <i class="fa fa-map-marker" ></i><span>bangalore</span><br>
+      <p>Skills   <i class="fa fa-angle-double-right" ></i><small> java</small>
+      <small>python</small><small>c</small><small>HTML,CSS,JSQ</small><a href="#">READ MORE</a></p>
+      
+    </div>
+    <div class="apply-btn">
+      <button type="button " class="btn btn-primary">Apply</button>
+    </div>
+  </div>
+
+
+
+<div class="company-details">
+          <div class="job-update">
+          <h3><b>  Python Developer</b></h3>
+          <p>CBA  Pvt Ltd</p>
+          <i class="fa fa-briefcase" ></i><span>1-3 yrs </span><br>
+          <i class="fa fa-inr" ></i><span>3.3- 3.9 Lacs .p.a. </span><br>
+          <i class="fa fa-map-marker" ></i><span>Mumbai</span><br>
+          <p>Skills   <i class="fa fa-angle-double-right" ></i><small> java</small>
+          <small>python</small><small>c</small><small>HTML,CSS,JS</small><a href="#">READ MORE</a></p>
+          
+        </div>
+        <div class="apply-btn">
+          <button type="button " class="btn btn-primary">Apply</button>
+        </div>
+      </div>
+
+
+      <div class="company-details">
+        <div class="job-update">
+        <h3><b>Full stack web Developer</b></h3>
+        <p>TCS Pvt Ltd</p>
+        <i class="fa fa-briefcase" ></i><span>1-3 yrs </span><br>
+        <i class="fa fa-inr" ></i><span>15.0 - 15.5 Lacs .p.a. </span><br>
+        <i class="fa fa-map-marker" ></i><span>Coimbatore</span><br>
+        <p>Skills   <i class="fa fa-angle-double-right" ></i><small> Css</small>
+        <small>PHP,MYSQL,MONGODB</small><small>c</small><small>HTML,CSS,JSQ</small><a href="#">READ MORE</a></p>
+        
+      </div>
+      <div class="apply-btn">
+        <button type="button " class="btn btn-primary">Apply</button>
+      </div>
+    </div>
+
+
+    <ul class="pagelink text-center" >
+      <li class="left-arrow">&#8592;</li>
+      <li class="active">1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+      <li class="right-arrow">&#8594;</li>
+
+
+
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </section>
+
+
+        <!----------------------------------site stats------------------------------------------->
+        <section id="site-stats">
+          <div class="container text-center">
+            <h3>FIND YOUR JOB SITE STATS</h3>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="stats-box">
+                      <i class="fa fa-user-o" ></i><span><small>300k +</small></span>
+                      <p>JOB SEEKERS</p>
+
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="stats-box">
+                      <i class="fa fa-slideshare" ></i><span><small>600k +</small></span>
+                      <p>EMPLOYERS</p>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="stats-box">
+                      <i class="fa fa-user-hand=peace" ></i><span><small>30k +</small></span>
+                      <p>ACTIVE JOB</p>
+
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="stats-box">
+                      <i class="fa fa-building-o" ></i><span><small>600k +</small></span>
+                      <p>Companies</p>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </section>
+        <!-------------------App Banner Section------------------------------------>
+        <section id="app-banner" class="text-center">
+          <h1>Find Jobs On Mobile,Download Find Your Job App</h1>
+          <img src="appstoreapp.png" width=30%>
+          <img src="playstoreimg.jpg" width="26%">
+
+        </section>
+        <!--------------------foooter---------------------->
+        <section id="footer" class="text-center">
+
+          <img src="logo.png.jpg" width=30% class="footer-img">
+          <br>
+          <br>
+          <br>
+          <h3>Connect With Us</h3>
+          <br>
+          <br>
+          <br>
+          <br>
+          <a href="#"><img src="twitter.png"></a>
+          <a href="#"><img src="facebook.png"></a>
+          <a href="#"><img src="whatsapp.png"></a>
+          <a href="#"><img src="linkedinlogopng.png"></a>
+          <hr>
+          <p>Made With<i class="fa fa-heart"></i>By --- Schandhana</i></p>
+        
+          
+
+
+          
+        
+        </section>
+   </body>
+</html>
